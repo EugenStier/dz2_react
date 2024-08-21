@@ -1,0 +1,42 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: white;
+}
+
+.List {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+  gap: 10px;
+}
+
+button {
+  width: 90px;
+  padding: 5px;
+  background-color: transparent;
+  color: rgb(24, 26, 24);
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+  font-size: 18px;
+}
+body {
+  background-color: rgb(20, 226, 168);
+}
+
+.List li {
+  color: rgb(38, 30, 30);
+}
+
+h1 {
+  color: rgb(47, 42, 42);
+  font-size: 35px;
+  text-align: center;
+}
